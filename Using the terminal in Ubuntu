@@ -1,0 +1,39 @@
+لاظهار ال terminal 
+ctrl+alt+t
+للدخول علي ال root 
+sudo -i
+Command	                  Description
+cd .. 	              go down a directory
+cd /	                go to lowest level
+cd /var/              www	go to absolute path
+cd ~                	go to logged in user's home
+ls	                  list files
+ls -la	             list all files, permissions, and hidden too
+pwd	                 print working directory
+cat+file name                 To read the file content
+_______________________________________________________________________________
+Command	                                    Description
+passwd	                                    change logged in users password
+su -                                         username	switch users
+sudo su                                     	switch to root
+useradd -m -s /bin/bash username             	Create User
+usermod -a -G existing_group existing_user	  Add User to Group
+who	                                          show all logged in users
+whoami	                                     show which user you are
+_______________________________________________________________________________
+Command	                                                  Description
+nano $name                                    Name= name of the file to be modified
+vim $name                                     Name= name of the file to be modified
+y                                                   yes 
+ctrl+x                                              To exit some editing programs such as nano
+______________________________________________________________________________________________
+
+Wget لتحميل الملفات علي الويب 
+wget <رابط الملف>
+مثال
+wget -r -l3 www.ubuntuac.blogspot.com
+______________________________________________________________________________________________
+touch انشاء ملف او اكثر
+مثال
+root@ubuntu:~# touch index.js index.html style.css
+______________________________________________________________________________________________
